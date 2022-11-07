@@ -17,7 +17,7 @@ mf.addTempo(track, time, 120)
 
 # add some notes
 channel = 0
-volume = 100
+volume = 10
 
 import random
 
@@ -27,7 +27,7 @@ import math
 
 rand = lambda x: math.cos(2 * x) + math.sin(math.pi * x)
 
-for i in range(10000):
+for i in range(1000):
     pitch = 50 + int(((rand(i/12)/2 + 0.2) * 15))
     pitch = clamp(pitch, 0, 255)
     time = i*0.75 + abs(rand(i/8)) / 3

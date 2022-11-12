@@ -14,3 +14,17 @@ sia del breve periodo che del lungo periodo(come invece non riescono a fare le R
 
 Con il modello trainato partendo da una corta sequenza di note si riesce a generare una nuova sequenza di note di lunghezza potenzialmente infinita, questa viene poi salvata in
 un file midi per poi poter essere riprodotta.
+
+
+## Istruzioni
+
+Il file finale è in samu/finalLstm, un jupyter notebook,
+le istruzioni sono tutte in quel file.
+
+### storia
+
+progetto nato dalla necessità di fare in una settimana un 
+progetto di intelligenza artificiale per ECC(educazione alla cittadinaza),
+thomas ha proposto di fare una rete neurale che generasse musica,
+abbiamo sfruttato le conoscenze musicali di marco e stefano, i dati
+trovati da thomas e lo sviluppo del modello fatto da samu.

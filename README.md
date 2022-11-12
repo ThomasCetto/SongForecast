@@ -9,8 +9,7 @@ Per il training del modello abbiamo usato un dataset di circa 1300 canzoni, otte
 
 ### Spiegazione piu' tecnica
 
-Abbiamo realizzato una rete neurale di tipo LSTM(Long Short Term Memory), particolarmente adatta all'analisi di serie di dati, per il fatto che riesce a fare previsioni tenendo conto
-sia del breve periodo che del lungo periodo(come invece non riescono a fare le RNN, recurrent neural network, classiche, di cui le LSTM sono una sottofamiglia.
+Abbiamo realizzato una rete neurale di tipo LSTM(Long Short Term Memory), particolarmente adatta all'analisi di serie di dati, per il fatto che riesce a fare previsioni tenendo conto sia del breve periodo che del lungo periodo(come invece non riescono a fare le RNN, recurrent neural network, classiche, di cui le LSTM sono una sottofamiglia.
 
 Con il modello trainato partendo da una corta sequenza di note si riesce a generare una nuova sequenza di note di lunghezza potenzialmente infinita, questa viene poi salvata in
 un file midi per poi poter essere riprodotta.
